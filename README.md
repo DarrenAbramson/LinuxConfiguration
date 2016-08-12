@@ -5,7 +5,11 @@ This describes the steps taken to deploy my project for the Udacity Full Stack D
 IP address of server: 	`http://52.42.254.155/`
 SSH port of server:		`2200`
 
-NOTE: much of the steps taken were modified from [this page](https://github.com/elnobun/Linux-Server-Configuration) linked from the Udacity forum for P7.
+NOTE: much of the steps taken were modified from [this page](https://github.com/elnobun/Linux-Server-Configuration) linked from the Udacity forum for P7. One early stumbling block was the need to add the host name to the hosts file to allow `sudo`; see [here](https://discussions.udacity.com/t/cannot-use-sudo-in-development-environment/183042/2).
+
+As indicated [here](https://discussions.udacity.com/t/no-unique-constraint-error/183162/4), I had to experiment with removing foreign key requirements in my `database_setup.py` so that my project which was written for SQLALchemy would work with Postgresql.
+
+Software installed can be found below with the `apt-get` and `pip install` commands.
 
 Steps taken:
 
