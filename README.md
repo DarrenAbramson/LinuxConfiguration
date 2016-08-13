@@ -2,7 +2,7 @@
 
 This describes the steps taken to deploy my project for the Udacity Full Stack Development nanodegree to a provided AWS EC2 instance.
 
-IP address of server: 	`http://52.42.254.155/`
+IP address of server: 	`http://52.11.146.132/`
 SSH port of server:		`2200`
 
 NOTE: much of the steps taken were modified from [this page](https://github.com/elnobun/Linux-Server-Configuration) linked from the Udacity forum for P7. One early stumbling block was the need to add the host name to the hosts file to allow `sudo`; see [here](https://discussions.udacity.com/t/cannot-use-sudo-in-development-environment/183042/2).
